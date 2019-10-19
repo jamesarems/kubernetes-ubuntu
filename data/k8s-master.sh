@@ -9,4 +9,4 @@ sudo chown vagrant:vagrant /home/vagrant/.kube/config
 sudo -H -u vagrant bash -c 'kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/canal.yaml' > /dev/null
 sudo -H -u vagrant bash -c 'kubeadm token create --print-join-command' > /vagrant_data/join
 
-
+echo "[2] Setup Completed"

@@ -3,10 +3,14 @@
 Vagrant setup for Ubuntu 16.04 vm
 
 
-- Provider: VirtualBOX
+- PROVIDER: 
 
-- Usgae:  
+  VirtualBOX
+
+- USAGE:  
 
   Clone this repo. 
 
-  Run `vagrant up` . Done!
+  Run `vagrant up` .
+
+  Run `vagrant ssh <vm>` to get ssh access.
