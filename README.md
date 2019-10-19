@@ -7,6 +7,6 @@ Vagrant setup for Ubuntu 16.04 vm
 
 - Usgae:  
 
-* Clone this repo. 
+  Clone this repo. 
 
-* run `vagrant up` . Done!
+  Run `vagrant up` . Done!
