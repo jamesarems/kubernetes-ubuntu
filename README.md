@@ -14,3 +14,7 @@ Vagrant setup for Ubuntu 16.04 vm
   Run `vagrant up` .
 
   Run `vagrant ssh <vm>` to get ssh access.
+
+## Advance use
+
+ Edit `Vagrant` file and adjust memory and cpu as your system preference.
