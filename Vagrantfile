@@ -5,7 +5,8 @@ Vagrant.configure("2") do |config|
 #Kubernetes master config
   config.vm.define "km1" do |vm1|
     vm1.vm.hostname = "km1"
-    vm1.vm.box = "k8svm"
+    vm1.vm.box = "jamesarems/ubuntu16-k8s"
+    vm1.vm.box_version = "1.0.0"
     vm1.vm.box_check_update = false
   #  config.vm.network "forwarded_port", guest: 80, host: 8080
   #  config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
@@ -25,7 +26,8 @@ Vagrant.configure("2") do |config|
 #kubernetes slave config
   config.vm.define "ks1" do |vm2|
     vm2.vm.hostname = "ks1"
-    vm2.vm.box = "k8svm"
+    vm2.vm.box = "jamesarems/ubuntu16-k8s"
+    vm2.vm.box_version = "1.0.0"
     vm2.vm.box_check_update = false
    #config.vm.network "forwarded_port", guest: 80, host: 8080
    #config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
